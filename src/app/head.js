@@ -6,6 +6,9 @@ export default function Head() {
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
       />
+      
+               
+      
     </>
   );
 }
