@@ -149,7 +149,6 @@ export default function Home() {
                           <img src="/iPad-page/ipad-pics/iPad-Air-M3-13-inch/purple.png" alt="2" /> 
                           <img src="/iPad-page/ipad-pics/iPad-Air-M3-13-inch/space_gray.png" alt="3" /> 
                           <img src="/iPad-page/ipad-pics/iPad-Air-M3-13-inch/starlight.png" alt="4" /> 
-
                           
                       </div>
 
@@ -173,7 +172,7 @@ export default function Home() {
                   
               </div>
 
-              <a href="iPad-page/iPad.html" className="click-here-more">View more iPads</a>
+              <a href="/iPad-page/iPad.html" className="click-here-more">View more iPads</a>
 
           </div>
 
@@ -265,7 +264,7 @@ export default function Home() {
                   
               </div>
 
-              <a href="mac-page/mac.html" className="click-here-more">View more Mac</a>
+              <a href="/mac-page/mac.html" className="click-here-more">View more Mac</a>
 
           </div>
 
@@ -282,7 +281,7 @@ export default function Home() {
                       <h2>Apple Watch Series 9 45mm GPS</h2>
                       <div className="slider" >
                           <img src="/watch-page/watch/series-9/alum-midnight.jpeg" alt="1" />
-                          <img src="/atch-page/watch/series-9/alum-pink.jpeg" alt="2" />
+                          <img src="/watch-page/watch/series-9/alum-pink.jpeg" alt="2" />
                           <img src="/watch-page/watch/series-9/alum-silver.jpeg" alt="3" />
                           <img src="/watch-page/watch/series-9/alum-starlight.jpeg" alt="4" />
                           <img src="/watch-page/watch/series-9/PRODUCTRED_Aluminium.webp" alt="5" />

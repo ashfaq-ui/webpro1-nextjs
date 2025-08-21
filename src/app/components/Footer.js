@@ -31,7 +31,7 @@ export default function Footer(){
 
 
 
-                <img className="pic-footer" src="/logo/mainLogo.jpg" alt="logo" />
+                <img className="pic-footer" src="/mainLogo.jpg" alt="logo" />
                 
 
                 {/* <div class="line-area" id="line">

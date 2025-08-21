@@ -5,13 +5,13 @@ export default function Navbar(){
         <div className="intro-video-area">
 
             <video className="intro-video" autoPlay muted loop>
-                <source src="./videos/introVideo.mp4" type="video/mp4" />
+                <source src="/videos/introVideo.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
             </video>
 
             <nav className="navbar" id="navbar">
 
-                <img className="pic-nav" src="./logo/mainLogo.jpg" alt="logo" />
+                <img className="pic-nav" src="/mainLogo.jpg" alt="logo" />
 
                 <ul className="nav-links">
 
@@ -122,7 +122,7 @@ export default function Navbar(){
 
                 </div>
 
-                <img className="pic-small-nav" src="./logo/logo.jpg" alt="logo" />
+                <img className="pic-small-nav" src="/mainLogo.jpg" alt="logo" />
 
 
 
