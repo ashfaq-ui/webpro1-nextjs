@@ -368,9 +368,7 @@ export default function Home() {
 
       </main>
 
-      <div className="bottom-signature">
-          <p >© 2025 Black Olives. Developed by <a href="#">Ashfaq</a></p>
-      </div>
+
       
     </>
 
