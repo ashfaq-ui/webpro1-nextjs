@@ -1,5 +1,7 @@
 "use client";
 import { useEffect } from "react";
+import Link from "next/link";
+
 
 export default function Navbar() {
   useEffect(() => {
@@ -103,13 +105,27 @@ export default function Navbar() {
         <img className="pic-nav" src="/mainLogo.jpg" alt="logo" />
 
         <ul className="nav-links">
-          <li><a href="#" className="active" id="active">Home</a></li>
-          <li><a href="#">IPhone</a></li>
-          <li><a href="#">Mac</a></li>
-          <li><a href="#">iPad</a></li>
-          <li><a href="#">Watch</a></li>
-          <li><a href="#">AirPods</a></li>
-          <li><a href="#">Accessories</a></li>
+          <li>
+            <Link href="/" className="active" id="active">Home</Link>
+          </li>
+          <li>
+            <Link href="/iphone-page">iPhone</Link>
+          </li>
+          <li>
+            <Link href="/mac">Mac</Link>
+          </li>
+          <li>
+            <Link href="/ipad">iPad</Link>
+          </li>
+          <li>
+            <Link href="/watch">Watch</Link>
+          </li>
+          <li>
+            <Link href="/airpods">AirPods</Link>
+          </li>
+          <li>
+            <Link href="/accessories">Accessories</Link>
+          </li>
         </ul>
 
         <ul className="nav-links">
