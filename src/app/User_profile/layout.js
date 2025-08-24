@@ -4,7 +4,10 @@ export default function LoginLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        {children} {/* No Navbar and Footer here */}
+        <main>
+          {children}{/* No Navbar and Footer here */}
+        </main>
+         
       </body>
     </html>
   );

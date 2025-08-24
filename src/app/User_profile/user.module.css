@@ -1,8 +1,42 @@
-.whole-area{
+:global(*) {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ---------------------------------------------------------------- */
+:global(main) {
+    height: 100vh;
+    width: 100vw;
+    background-color: #000000;
+    color: white;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
-    min-height: 400px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.background-colour{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    min-height: 600px;
+    min-width: 1000px;
+    background-color: rgb(79, 66, 56);
+
+}
+.sub-whole-area{
+    text-align: center;
+    background-color: rgb(141, 113, 93);  
+}
+
+.whole-area{
+    text-align: center;
     background-color: saddlebrown;
-
 }
