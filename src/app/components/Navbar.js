@@ -140,7 +140,7 @@ export default function Navbar() {
             </svg>
           </a></li>
 
-          <li><a href="#">
+          <li><a href="/User_profile">
             {/* Profile icon */}
             <svg className="w-[48px] h-[48px] text-gray-800 dark:text-white"
               aria-hidden="true"
