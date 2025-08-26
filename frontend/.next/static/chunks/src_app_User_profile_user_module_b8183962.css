@@ -1,0 +1,43 @@
+/* [project]/src/app/User_profile/user.module.css [app-client] (css) */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  color: #fff;
+  background-color: #000;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.user-module__oAZHwW__background-colour {
+  background-color: #4f4238;
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content: space-around;
+  min-width: 1000px;
+  min-height: 600px;
+  display: flex;
+}
+
+.user-module__oAZHwW__sub-whole-area {
+  text-align: center;
+  background-color: #8d715d;
+}
+
+.user-module__oAZHwW__whole-area {
+  text-align: center;
+  background-color: #8b4513;
+}
+
+/*# sourceMappingURL=src_app_User_profile_user_module_b8183962.css.map*/

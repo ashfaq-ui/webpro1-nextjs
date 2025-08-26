@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/User_profile/user.module.css [app-rsc] (css module)"],"sourcesContent":["__turbopack_context__.v({\n  \"background-colour\": \"user-module__oAZHwW__background-colour\",\n  \"sub-whole-area\": \"user-module__oAZHwW__sub-whole-area\",\n  \"whole-area\": \"user-module__oAZHwW__whole-area\",\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA"}},
+    {"offset": {"line": 13, "column": 0}, "map": {"version":3,"sources":["file:///Users/mohamedashfaq/Desktop/apple-store/frontend/src/app/User_profile/layout.js"],"sourcesContent":["import \"./user.module.css\";\n\nexport default function LoginLayout({ children }) {\n  return (\n    <html lang=\"en\">\n      <body>\n        <main>\n          {children}{/* No Navbar and Footer here */}\n        </main>\n         \n      </body>\n    </html>\n  );\n}"],"names":[],"mappings":";;;;AAAA;;;AAEe,SAAS,YAAY,EAAE,QAAQ,EAAE;IAC9C,qBACE,8OAAC;QAAK,MAAK;kBACT,cAAA,8OAAC;sBACC,cAAA,8OAAC;0BACE;;;;;;;;;;;;;;;;AAMX","debugId":null}}]
+}

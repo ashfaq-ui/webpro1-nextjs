@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///Users/mohamedashfaq/Desktop/apple-store/frontend/src/app/User_profile/user.module.css"],"sourcesContent":[":global(*) {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    font-family: Arial, Helvetica, sans-serif;\n}\n/* ---------------------------------------------------------------- */\n:global(main) {\n    height: 100vh;\n    width: 100vw;\n    background-color: #000000;\n    color: white;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n\n}\n\nhtml {\n  scroll-behavior: smooth;\n}\n\n\n.background-colour{\n    display: flex;\n    flex-direction: column;\n    justify-content: space-around;\n\n    min-height: 600px;\n    min-width: 1000px;\n    background-color: rgb(79, 66, 56);\n\n    border-radius: 20px;\n\n}\n.sub-whole-area{\n    text-align: center;\n    background-color: rgb(141, 113, 93);  \n}\n\n.whole-area{\n    text-align: center;\n    background-color: saddlebrown;\n}"],"names":[],"mappings":"AAAA;;;;;;;AAOA;;;;;;;;;;AAWA;;;;AAKA;;;;;;;;;;AAYA;;;;;AAKA","debugId":null}}]
+}
