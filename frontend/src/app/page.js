@@ -5,7 +5,7 @@ export default function Home() {
     <>
       <main>
 
-
+{/* hello there */}
           <div className="content-area1">
 
               <h1 style={{color: "white"}}>iPhone 16 Series (New Arraivels!)</h1>
