@@ -1,0 +1,221 @@
+/* ---------------------------------------------------------------- */
+.content-area1{
+    display: flex; /*     flex-wrap: wrap;  */
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+    background-color: rgb(0, 0, 0);
+    height: 800px;
+    width: 100vw;
+
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+.slider-container{
+    display: flex; /*     flex-wrap: wrap;  */
+    justify-content: space-around;
+    width: 100vw;
+    /* learn from chatGPT */
+
+    overflow-x: auto; /* Allows horizontal scroll */
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+
+      /* HIDE SCROLLBAR */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+}
+
+.slider-container::-webkit-scrollbar {
+  display: none;
+}
+
+.slider{
+    display: flex;
+    align-items: center;
+
+    width: 350px;
+    height: 300px;
+
+
+
+    background-color: rgb(88, 68, 68);
+    border-radius: 20px;
+    
+    overflow-x:auto ;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch ;
+
+    scrollbar-width: none ;
+    -ms-overflow-style : none ;
+    
+}
+.slider img{
+    height: 300px;
+    width: 300px;
+}
+
+.sub-1-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 450px ;
+    width: 400px;
+    margin-left: 30px;
+    padding: 15px;
+    justify-content: space-around;
+
+    border-color: white;
+    border-width: 2px;
+    border-style: groove;
+    border-radius: 10px;
+}
+
+.sub-1-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 450px ;
+    width: 400px;
+    margin-left: 150px;
+    padding: 15px;
+    justify-content: space-around;
+
+    border-color: white;
+    border-width: 2px;
+    border-style: groove;
+    border-radius: 10px;
+}
+
+.sub-1-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 450px ;
+    width: 400px;
+    margin-left: 150px;
+    padding: 15px;
+    justify-content: space-around;
+
+    border-color: white;
+    border-width: 2px;
+    border-style: groove;
+    border-radius: 10px;
+}
+
+.sub-1-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 450px ;
+    width: 400px;
+    margin-left: 150px;
+    padding: 15px;
+    justify-content: space-around;
+
+    border-color: white;
+    border-width: 2px;
+    border-style: groove;
+    border-radius: 10px;
+}
+
+.sub-1-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 450px ;
+    width: 400px;
+    margin-left: 150px;
+    padding: 15px;
+    justify-content: space-around;
+
+    border-color: white;
+    border-width: 2px;
+    border-style: groove;
+    border-radius: 10px;
+}
+
+
+
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+
+
+.content-area2{
+    display: flex; /*     flex-wrap: wrap;  */
+    flex-direction: column;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 100vh;
+
+
+
+}
+
+.content-area3{
+    display: flex; /*     flex-wrap: wrap;  */
+    flex-direction: column;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 100vh;
+
+
+}
+
+.content-area4{
+    display: flex; /*     flex-wrap: wrap;  */
+    flex-direction: column;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 100vh;
+
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin-bottom: 20px;
+
+
+}
+/* ---------------------------------------------------------------- */
+
+.click-here-more{
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.click-here-more:hover{
+    text-decoration: underline;
+}
+
+/* ---------------------------------------------------------------- */
+/* footer Area */
