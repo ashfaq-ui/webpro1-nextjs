@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///Users/mohamedashfaq/Desktop/PROJECTS/istore-nextjs/frontend/src/app/User_profile/user.module.css"],"sourcesContent":[".background-colour{\n    display: flex;\n    flex-direction: column;\n    justify-content: space-around;\n\n    min-height: 600px;\n    min-width: 1000px;\n    background-color: rgb(79, 66, 56);\n\n    border-radius: 20px;\n\n}\n.sub-whole-area{\n    text-align: center;\n    background-color: rgb(141, 113, 93);  \n}\n\n.whole-area{\n    text-align: center;\n    background-color: saddlebrown;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;;AAYA;;;;;AAKA","debugId":null}}]
-}
