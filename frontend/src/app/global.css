@@ -1,12 +1,14 @@
 @import url("https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css");
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 /* ---------------------------------------------------------------- */
-body{
+body {
     height: 100%;
     background-color: #171717;
     color: white;
@@ -14,15 +16,16 @@ body{
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
+
 /* ---------------------------------------------------------------- */
 
 /* ---------------------------------------------------------------- */
 /* content body */
-main{
+main {
     color: black;
-    background: #171717; 
+    background: #171717;
 
     min-height: 800px;
     width: 100vw;
@@ -31,15 +34,16 @@ main{
 
     flex-direction: column;
 
-    justify-content: space-between; 
-    align-items: center;  
+    justify-content: space-between;
+    align-items: center;
 
 
 }
 
 
-.content-area1{
-    display: flex; /*     flex-wrap: wrap;  */
+.content-area1 {
+    display: flex;
+    /*     flex-wrap: wrap;  */
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
@@ -51,8 +55,9 @@ main{
 
 }
 
-.content-area2{
-    display: flex; /*     flex-wrap: wrap;  */
+.content-area2 {
+    display: flex;
+    /*     flex-wrap: wrap;  */
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
@@ -64,8 +69,9 @@ main{
 
 }
 
-.content-area3{
-    display: flex; /*     flex-wrap: wrap;  */
+.content-area3 {
+    display: flex;
+    /*     flex-wrap: wrap;  */
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
@@ -77,8 +83,9 @@ main{
 
 }
 
-.content-area4{
-    display: flex; /*     flex-wrap: wrap;  */
+.content-area4 {
+    display: flex;
+    /*     flex-wrap: wrap;  */
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
@@ -99,14 +106,14 @@ main{
 
 /* ---------------------------------------------------------------- */
 /* Video area */
-.intro-video-area{
+.intro-video-area {
     position: static;
     width: 100vw;
-    height:max-content;
+    height: max-content;
 }
 
-.intro-video{
-    position:static;
+.intro-video {
+    position: static;
     top: 0;
     left: 0;
     width: 100vw;
@@ -118,7 +125,7 @@ main{
 }
 
 /* navigation Area */
-.navbar{
+.navbar {
     position: fixed;
     top: 0;
     left: 0;
@@ -141,20 +148,20 @@ main{
     transition: background-color 0.4s ease;
 }
 
-.pic-nav{
+.pic-nav {
     height: 180px;
     width: auto;
     padding: 20px 0px 20px 30px;
 }
 
-.nav-links{
+.nav-links {
     list-style: none;
     display: flex;
     gap: 20px;
     padding: 80px 30px;
 }
 
-.nav-links a{
+.nav-links a {
     color: white;
     text-decoration: none;
     font-size: 24px;
@@ -171,25 +178,25 @@ main{
 }
 
 
-.nav-links li .actual-active{
-    border-bottom: 3px solid #ffffff;   
+.nav-links li .actual-active {
+    border-bottom: 3px solid #ffffff;
 
 }
 
-.small-nav{
+.small-nav {
     display: none;
 }
 
-.nav-links-2{
+.nav-links-2 {
     display: none;
 }
 
 @media (max-width: 768px) {
-    .navbar{
+    .navbar {
         display: none;
     }
 
-    .small-nav{
+    .small-nav {
         display: flex;
         position: fixed;
         top: 0;
@@ -199,7 +206,7 @@ main{
         z-index: 10;
     }
 
-    .nav-links-2{
+    .nav-links-2 {
 
         list-style: none;
         display: flex;
@@ -214,7 +221,7 @@ main{
     }
 
 
-    .nav-links-2 a{
+    .nav-links-2 a {
         color: white;
         padding: 5px;
         text-decoration: none;
@@ -239,7 +246,7 @@ main{
         background-color: rgb(0, 0, 0);
         transition: background-color 0.4s ease;
     }
-    
+
     /* Toggle Button */
     #toggle-btn {
         position: fixed;
@@ -277,17 +284,18 @@ main{
 
         margin-top: 40px;
     }
-    #options{
+
+    #options {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    #bottom-options{
+    #bottom-options {
         display: flex;
         flex-direction: column;
-        align-items:center;
+        align-items: center;
         margin-bottom: 40px;
     }
 
@@ -299,7 +307,7 @@ main{
         text-decoration: none;
     }
 
-    #right-nav a:hover{
+    #right-nav a:hover {
         color: black;
         background-color: white;
         border-radius: 10px;
@@ -307,7 +315,8 @@ main{
     }
 
     #right-nav.show {
-        left: 0px; /* slide into view */
+        left: 0px;
+        /* slide into view */
 
     }
 
@@ -315,7 +324,7 @@ main{
         display: none;
     }
 
-    .pic-small-nav{
+    .pic-small-nav {
         position: fixed;
         top: 2%;
         left: 45%;
@@ -330,11 +339,12 @@ main{
 
 /* ---------------------------------------------------------------- */
 .wrapper {
-   /* background-color: rebeccapurple; /*beige */ 
+    /* background-color: rebeccapurple; /*beige */
     color: white;
-    height:fit-content;
-    
+    height: fit-content;
+
 }
+
 /* ---------------------------------------------------------------- */
 
 
@@ -354,16 +364,18 @@ main{
     background-color: green;
 
 
-    position: fixed; /* relative,static,absolute,fixed,sticky */
+    position: fixed;
+    /* relative,static,absolute,fixed,sticky */
     left: 90%;
     top: 80%;
 
-    
+
 }
 
 @media (max-width: 768px) {
-    .socialmedia{
-        position: fixed; /* relative,static,absolute,fixed,sticky */
+    .socialmedia {
+        position: fixed;
+        /* relative,static,absolute,fixed,sticky */
         left: 80%;
         top: 90%;
     }
@@ -372,14 +384,15 @@ main{
 
 
 
-.socialmedia a{
+.socialmedia a {
     color: aliceblue;
 }
 
 
-.socialmedia a:hover{
+.socialmedia a:hover {
     color: black;
 }
+
 /* ---------------------------------------------------------------- */
 
 
@@ -400,29 +413,31 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
-    
-    gap: 20px; /*use this only when you apply new cells */
 
-    border-radius:  40px;
+    gap: 20px;
+    /*use this only when you apply new cells */
+
+    border-radius: 40px;
 
 
 }
 
 @media (max-width: 768px) {
-    footer{
-        display:flex;
+    footer {
+        display: flex;
         flex-direction: column;
         align-items: center;
-        
+
     }
 
 
 }
 
-.footer-left{
+.footer-left {
     height: 600px;
     width: 400px;
-    display: flex; /* start, center, end */
+    display: flex;
+    /* start, center, end */
     flex-direction: column;
     grid-template-rows: auto;
     justify-content: center;
@@ -434,7 +449,7 @@ footer {
 
 
 
-.pic-footer{
+.pic-footer {
 
     height: 300px;
     width: 300px;
@@ -445,13 +460,13 @@ footer {
 
 }
 
-.text{
+.text {
     justify-content: center;
     padding: 10px;
 }
 
 
-.socialmedia-footer{
+.socialmedia-footer {
 
     list-style: none;
     width: 350px;
@@ -463,19 +478,20 @@ footer {
 
 }
 
-.socialmedia-footer a{
+.socialmedia-footer a {
     color: aliceblue;
-    padding:10px;
+    padding: 10px;
 
 }
 
-.socialmedia-footer a:hover{
+.socialmedia-footer a:hover {
     color: blue;
 }
+
 /* ---------------------------------------------------------------- */
 
 /*line*/
-.line-area{
+.line-area {
     display: flex;
     grid-row: span 3;
     width: 30px;
@@ -483,15 +499,17 @@ footer {
     justify-content: center;
     align-items: center;
 }
-.line{
+
+.line {
 
     width: 2px;
     height: 400px;
     background-color: #171717;
 
 }
+
 /* ---------------------------------------------------------------- */
-.quick-navigation-area{
+.quick-navigation-area {
     color: white;
     width: 100%;
     display: flex;
@@ -499,7 +517,8 @@ footer {
     justify-content: center;
 
 }
-.quick-navigation{
+
+.quick-navigation {
     display: flex;
     height: 200px;
     flex-direction: column;
@@ -511,20 +530,20 @@ footer {
 
 }
 
-.quick-navigation a{
+.quick-navigation a {
     color: white;
     text-decoration: none;
 }
 
 /* when screen size decrease below 768px*/
-.quick-nav-options-1{
+.quick-nav-options-1 {
     display: flex;
     flex-direction: column;
     height: 80px;
     align-items: center;
 }
 
-.quick-nav-options{
+.quick-nav-options {
     background-color: #000000;
     color: white;
     font-size: 30px;
@@ -533,8 +552,9 @@ footer {
     width: 100%;
 
 }
+
 /* ---------------------------------------------------------------- */
-.main-categories-area{
+.main-categories-area {
     color: white;
     width: 100%;
     display: flex;
@@ -543,7 +563,7 @@ footer {
 
 }
 
-.main-categories{
+.main-categories {
     display: flex;
     height: 200px;
     flex-direction: column;
@@ -555,18 +575,19 @@ footer {
 
 }
 
-.main-categories a{
+.main-categories a {
     color: white;
     text-decoration: none;
 }
-/* ---------------------------------------------------------------- */
-
-
-
 
 /* ---------------------------------------------------------------- */
+
+
+
+
 /* ---------------------------------------------------------------- */
-.bottom-signature{
+/* ---------------------------------------------------------------- */
+.bottom-signature {
     display: flex;
     height: 80px;
     width: 100%;
@@ -582,10 +603,11 @@ footer {
     text-decoration: none;
 }
 
-.bottom-signature a:hover{
+.bottom-signature a:hover {
     color: rgb(130, 66, 66);
     font-size: 30px;
 }
+
 /* ---------------------------------------------------------------- */
 /* -----------------------THIS IS FOR MOBILE !!!!-------------------------------- */
 
@@ -601,5 +623,3 @@ footer {
 }
 
 */
-
-

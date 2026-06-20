@@ -1,4 +1,4 @@
-import styles from "./iphone.module.css"; 
+import "./iphone.css"; 
 
 export default function Iphone(){
     return(
@@ -13,7 +13,7 @@ export default function Iphone(){
       <main>
 
                 
-                <div className={styles["iphone-category-navigation"]}>
+                <div className="iphone-category-navigation">
 
                     <h1 className="heading-cate-nav">Quick Navigation</h1>
                     
@@ -21,7 +21,7 @@ export default function Iphone(){
 
                         <a href="#content-area1" id="quick-nav-a">
                             <div className="cate-nav-pic">
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="16" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="16" />
                                 <h4>iPhone 16</h4>
                             </div>
                         
@@ -29,7 +29,7 @@ export default function Iphone(){
 
                         <a href="#content-area2" id="quick-nav-a">
                             <div className="cate-nav-pic">
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="15" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="15" />
                                 <h4>iPhone 15</h4>
                             </div>
                         
@@ -37,7 +37,7 @@ export default function Iphone(){
 
                         <a href="#content-area3" id="quick-nav-a">
                             <div className="cate-nav-pic">
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="14" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="14" />
                                 <h4>iPhone 14</h4>
                             </div>
                         
@@ -45,7 +45,7 @@ export default function Iphone(){
                         
                         <a href="#content-area4" id="quick-nav-a">
                             <div className="cate-nav-pic">
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="13" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="13" />
                                 <h4>iPhone 13</h4>
                             </div>
                         
@@ -53,7 +53,7 @@ export default function Iphone(){
 
                         <a href="#content-area5" id="quick-nav-a">
                             <div className="cate-nav-pic">
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="12" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="12" />
                                 <h4>iPhone 12</h4>
                             </div>
                         
@@ -61,7 +61,7 @@ export default function Iphone(){
 
                         <a href="#content-area6" id="quick-nav-a">
                             <div className="cate-nav-pic">
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="11" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="11" />
                                 <h4>iPhone 11</h4>
                             </div>
                         
@@ -69,7 +69,7 @@ export default function Iphone(){
 
                         <a href="#content-area7" id="quick-nav-a">
                             <div className="cate-nav-pic">
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="10" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="10" />
                                 <h4>iPhone 10</h4>
                             </div>
                         
@@ -91,9 +91,9 @@ export default function Iphone(){
                             
                             <h2>iPhone 16</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="1" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone16_blue.jpg" alt="2" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone16_pink.webp" alt="3" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="1" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone16_blue.jpg" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone16_pink.webp" alt="3" />
                                 
                             </div>
 
@@ -103,9 +103,9 @@ export default function Iphone(){
                         <div className="sub-1-2" id="sub-1-2">
                             <h2>iPhone 16 plus</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone16_pink.webp" alt="1" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="2" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone16_blue.jpg" alt="3" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone16_pink.webp" alt="1" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone16_blue.jpg" alt="3" />
 
                                 
                             </div>
@@ -116,10 +116,10 @@ export default function Iphone(){
                         <div className="sub-1-3" id="sub-1-3">
                             <h2>iPhone 16 pro</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/black.jpg" alt="1" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/Desert_Titanium.png" alt="2" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/natural_titanium.jpg" alt="3" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/white_croped.png" alt="4" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/black.jpg" alt="1" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/Desert_Titanium.png" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/natural_titanium.jpg" alt="3" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/white_croped.png" alt="4" />
                                 
                             </div>
 
@@ -129,10 +129,10 @@ export default function Iphone(){
                         <div className="sub-1-4" id="sub-1-4">
                             <h2>iPhone 16 pro max</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/white_croped.png" alt="1" />                           
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/natural_titanium.jpg" alt="2" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/Desert_Titanium.png" alt="3" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/black.jpg" alt="4" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/white_croped.png" alt="1" />                           
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/natural_titanium.jpg" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/Desert_Titanium.png" alt="3" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/black.jpg" alt="4" />
 
                                 
                             </div>
@@ -143,8 +143,8 @@ export default function Iphone(){
                         <div className="sub-1-5" id="sub-1-5">
                             <h2>iPhone 16 e</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16_e/blackWhite.jpg" alt="1" />                           
-                                <img src="/iphone-page/iphone-pics/iphone16/16_e/white.png" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_e/blackWhite.jpg" alt="1" />                           
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_e/white.png" alt="2" />
 
                                 
                             </div>
@@ -173,11 +173,11 @@ export default function Iphone(){
                     <div className="slider-container">
                         <div className="sub-1-1" id="sub-1-1">
                             
-                            <h2>iPhone 16</h2>
+                            <h2>iPhone 15</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="1" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone16_blue.jpg" alt="2" /> 
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone16_pink.webp" alt="3" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="1" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone16_blue.jpg" alt="2" /> 
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone16_pink.webp" alt="3" />
                                 
                             </div>
 
@@ -185,11 +185,11 @@ export default function Iphone(){
                         </div>
 
                         <div className="sub-1-2" id="sub-1-2">
-                            <h2>iPhone 16 plus</h2>
+                            <h2>iPhone 15 plus</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone16_pink.webp" alt="1" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="2" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone16_blue.jpg" alt="3" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone16_pink.webp" alt="1" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone16_blue.jpg" alt="3" />
 
                                 
                             </div>
@@ -198,12 +198,12 @@ export default function Iphone(){
                         </div>
 
                         <div className="sub-1-3" id="sub-1-3">
-                            <h2>iPhone 16 pro</h2>
+                            <h2>iPhone 15 pro</h2>
                             <div className="slider" >
-                                <img src="iphone-pics/iphone16/16_pro_max/black.jpg" alt="1" />
-                                <img src="iphone-pics/iphone16/16_pro_max/Desert_Titanium.png" alt="2" />
-                                <img src="iphone-pics/iphone16/16_pro_max/natural_titanium.jpg" alt="3" />
-                                <img src="iphone-pics/iphone16/16_pro_max/white_croped.png" alt="4" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/black.jpg" alt="1" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/Desert_Titanium.png" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/natural_titanium.jpg" alt="3" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/white_croped.png" alt="4" />
                                 
                             </div>
 
@@ -211,12 +211,12 @@ export default function Iphone(){
                         </div>
 
                         <div className="sub-1-4" id="sub-1-4">
-                            <h2>iPhone 16 pro max</h2>
+                            <h2>iPhone 15 pro max</h2>
                             <div className="slider" >
-                                <img src="iphone-pics/iphone16/16_pro_max/white_croped.png" alt="1" />                           
-                                <img src="iphone-pics/iphone16/16_pro_max/natural_titanium.jpg" alt="2" />
-                                <img src="iphone-pics/iphone16/16_pro_max/Desert_Titanium.png" alt="3" />
-                                <img src="iphone-pics/iphone16/16_pro_max/black.jpg" alt="4" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/white_croped.png" alt="1" />                           
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/natural_titanium.jpg" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/Desert_Titanium.png" alt="3" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/black.jpg" alt="4" />
 
                                 
                             </div>
@@ -225,10 +225,10 @@ export default function Iphone(){
                         </div>
 
                         <div className="sub-1-5" id="sub-1-5">
-                            <h2>iPhone 16 e</h2>
+                            <h2>iPhone 15 e</h2>
                             <div className="slider" >
-                                <img src="iphone-pics/iphone16/16_e/blackWhite.jpg" alt="1" />                           
-                                <img src="iphone-pics/iphone16/16_e/white.png" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_e/blackWhite.jpg" alt="1" />                           
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_e/white.png" alt="2" />
 
                                 
                             </div>
@@ -251,11 +251,11 @@ export default function Iphone(){
                     <div className="slider-container">
                         <div className="sub-1-1" id="sub-1-1">
                             
-                            <h2>iPhone 16</h2>
+                            <h2>iPhone 14</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="1" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone16_blue.jpg" alt="2" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone16_pink.webp" alt="3" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="1" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone16_blue.jpg" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone16_pink.webp" alt="3" />
                                 
                             </div>
 
@@ -263,11 +263,11 @@ export default function Iphone(){
                         </div>
 
                         <div className="sub-1-2" id="sub-1-2">
-                            <h2>iPhone 16 plus</h2>
+                            <h2>iPhone 14 plus</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone16_pink.webp" alt="1" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="2" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone16_blue.jpg" alt="3" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone16_pink.webp" alt="1" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone16_blue.jpg" alt="3" />
 
                                 
                             </div>
@@ -276,12 +276,12 @@ export default function Iphone(){
                         </div>
 
                         <div className="sub-1-3" id="sub-1-3">
-                            <h2>iPhone 16 pro</h2>
+                            <h2>iPhone 14 pro</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/black.jpg" alt="1" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/Desert_Titanium.png" alt="2" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/natural_titanium.jpg" alt="3" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/white_croped.png" alt="4" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/black.jpg" alt="1" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/Desert_Titanium.png" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/natural_titanium.jpg" alt="3" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/white_croped.png" alt="4" />
                                 
                             </div>
 
@@ -289,12 +289,12 @@ export default function Iphone(){
                         </div>
 
                         <div className="sub-1-4" id="sub-1-4">
-                            <h2>iPhone 16 pro max</h2>
+                            <h2>iPhone 14 pro max</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/white_croped.png" alt="1" />                           
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/natural_titanium.jpg" alt="2" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/Desert_Titanium.png" alt="3" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/black.jpg" alt="4" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/white_croped.png" alt="1" />                           
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/natural_titanium.jpg" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/Desert_Titanium.png" alt="3" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/black.jpg" alt="4" />
 
                                 
                             </div>
@@ -303,10 +303,10 @@ export default function Iphone(){
                         </div>
 
                         <div className="sub-1-5" id="sub-1-5">
-                            <h2>iPhone 16 e</h2>
+                            <h2>iPhone 14 e</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16_e/blackWhite.jpg" alt="1" />                           
-                                <img src="/iphone-page/iphone-pics/iphone16/16_e/white.png" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_e/blackWhite.jpg" alt="1" />                           
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_e/white.png" alt="2" />
 
                                 
                             </div>
@@ -329,11 +329,11 @@ export default function Iphone(){
                     <div className="slider-container">
                         <div className="sub-1-1" id="sub-1-1">
                             
-                            <h2>iPhone 16</h2>
+                            <h2>iPhone 13</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="1" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone16_blue.jpg" alt="2" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone16_pink.webp" alt="3" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="1" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone16_blue.jpg" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone16_pink.webp" alt="3" />
                                 
                             </div>
 
@@ -341,11 +341,11 @@ export default function Iphone(){
                         </div>
 
                         <div className="sub-1-2" id="sub-1-2">
-                            <h2>iPhone 16 plus</h2>
+                            <h2>iPhone 13 plus</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone16_pink.webp" alt="1" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="2" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone16_blue.jpg" alt="3" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone16_pink.webp" alt="1" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone16_blue.jpg" alt="3" />
 
                                 
                             </div>
@@ -354,12 +354,12 @@ export default function Iphone(){
                         </div>
 
                         <div className="sub-1-3" id="sub-1-3">
-                            <h2>iPhone 16 pro</h2>
+                            <h2>iPhone 13 pro</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/black.jpg" alt="1" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/Desert_Titanium.png" alt="2" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/natural_titanium.jpg" alt="3" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/white_croped.png" alt="4" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/black.jpg" alt="1" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/Desert_Titanium.png" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/natural_titanium.jpg" alt="3" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/white_croped.png" alt="4" />
                                 
                             </div>
 
@@ -367,12 +367,12 @@ export default function Iphone(){
                         </div>
 
                         <div className="sub-1-4" id="sub-1-4">
-                            <h2>iPhone 16 pro max</h2>
+                            <h2>iPhone 13 pro max</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/white_croped.png" alt="1" />                           
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/natural_titanium.jpg" alt="2" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/Desert_Titanium.png" alt="3" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/black.jpg" alt="4" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/white_croped.png" alt="1" />                           
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/natural_titanium.jpg" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/Desert_Titanium.png" alt="3" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/black.jpg" alt="4" />
 
                                 
                             </div>
@@ -381,10 +381,10 @@ export default function Iphone(){
                         </div>
 
                         <div className="sub-1-5" id="sub-1-5">
-                            <h2>iPhone 16 e</h2>
+                            <h2>iPhone 13 e</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16_e/blackWhite.jpg" alt="1" />                           
-                                <img src="/iphone-page/iphone-pics/iphone16/16_e/white.png" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_e/blackWhite.jpg" alt="1" />                           
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_e/white.png" alt="2" />
 
                                 
                             </div>
@@ -406,11 +406,11 @@ export default function Iphone(){
                     <div className="slider-container">
                         <div className="sub-1-1" id="sub-1-1">
                             
-                            <h2>iPhone 16</h2>
+                            <h2>iPhone 12</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="1" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone16_blue.jpg" alt="2" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone16_pink.webp" alt="3" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="1" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone16_blue.jpg" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone16_pink.webp" alt="3" />
                                 
                             </div>
 
@@ -418,11 +418,11 @@ export default function Iphone(){
                         </div>
 
                         <div className="sub-1-2" id="sub-1-2">
-                            <h2>iPhone 16 plus</h2>
+                            <h2>iPhone 12 plus</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone16_pink.webp" alt="1" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="2" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone16_blue.jpg" alt="3" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone16_pink.webp" alt="1" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone16_blue.jpg" alt="3" />
 
                                 
                             </div>
@@ -431,12 +431,12 @@ export default function Iphone(){
                         </div>
 
                         <div className="sub-1-3" id="sub-1-3">
-                            <h2>iPhone 16 pro</h2>
+                            <h2>iPhone 12 pro</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/black.jpg" alt="1" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/Desert_Titanium.png" alt="2" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/natural_titanium.jpg" alt="3" />
-                                <img src="/iphone-page/phone-pics/iphone16/16_pro_max/white_croped.png" alt="4" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/black.jpg" alt="1" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/Desert_Titanium.png" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/natural_titanium.jpg" alt="3" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/white_croped.png" alt="4" />
                                 
                             </div>
 
@@ -444,12 +444,12 @@ export default function Iphone(){
                         </div>
 
                         <div className="sub-1-4" id="sub-1-4">
-                            <h2>iPhone 16 pro max</h2>
+                            <h2>iPhone 12 pro max</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/white_croped.png" alt="1" />                           
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/natural_titanium.jpg" alt="2" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/Desert_Titanium.png" alt="3" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/black.jpg" alt="4" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/white_croped.png" alt="1" />                           
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/natural_titanium.jpg" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/Desert_Titanium.png" alt="3" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/black.jpg" alt="4" />
 
                                 
                             </div>
@@ -458,10 +458,10 @@ export default function Iphone(){
                         </div>
 
                         <div className="sub-1-5" id="sub-1-5">
-                            <h2>iPhone 16 e</h2>
+                            <h2>iPhone 12 e</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16_e/blackWhite.jpg" alt="1" />                           
-                                <img src="/iphone-page/iphone-pics/iphone16/16_e/white.png" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_e/blackWhite.jpg" alt="1" />                           
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_e/white.png" alt="2" />
 
                                 
                             </div>
@@ -482,11 +482,11 @@ export default function Iphone(){
                     <div className="slider-container">
                         <div className="sub-1-1" id="sub-1-1">
                             
-                            <h2>iPhone 16</h2>
+                            <h2>iPhone 11</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="1" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone16_blue.jpg" alt="2" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone16_pink.webp" alt="3" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="1" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone16_blue.jpg" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone16_pink.webp" alt="3" />
                                 
                             </div>
 
@@ -494,11 +494,11 @@ export default function Iphone(){
                         </div>
 
                         <div className="sub-1-2" id="sub-1-2">
-                            <h2>iPhone 16 plus</h2>
+                            <h2>iPhone 11 plus</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone16_pink.webp" alt="1" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="2" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone16_blue.jpg" alt="3" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone16_pink.webp" alt="1" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone16_blue.jpg" alt="3" />
 
                                 
                             </div>
@@ -507,12 +507,12 @@ export default function Iphone(){
                         </div>
 
                         <div className="sub-1-3" id="sub-1-3">
-                            <h2>iPhone 16 pro</h2>
+                            <h2>iPhone 11 pro</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/black.jpg" alt="1" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/Desert_Titanium.png" alt="2" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/natural_titanium.jpg" alt="3" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/white_croped.png" alt="4" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/black.jpg" alt="1" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/Desert_Titanium.png" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/natural_titanium.jpg" alt="3" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/white_croped.png" alt="4" />
                                 
                             </div>
 
@@ -520,12 +520,12 @@ export default function Iphone(){
                         </div>
 
                         <div className="sub-1-4" id="sub-1-4">
-                            <h2>iPhone 16 pro max</h2>
+                            <h2>iPhone 11 pro max</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/white_croped.png" alt="1" />                           
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/natural_titanium.jpg" alt="2" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/Desert_Titanium.png" alt="3" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/black.jpg" alt="4" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/white_croped.png" alt="1" />                           
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/natural_titanium.jpg" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/Desert_Titanium.png" alt="3" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/black.jpg" alt="4" />
 
                                 
                             </div>
@@ -534,10 +534,10 @@ export default function Iphone(){
                         </div>
 
                         <div className="sub-1-5" id="sub-1-5">
-                            <h2>iPhone 16 e</h2>
+                            <h2>iPhone 11 e</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16_e/blackWhite.jpg" alt="1" />                           
-                                <img src="/iphone-page/iphone-pics/iphone16/16_e/white.png" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_e/blackWhite.jpg" alt="1" />                           
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_e/white.png" alt="2" />
 
                                 
                             </div>
@@ -559,11 +559,11 @@ export default function Iphone(){
                     <div className="slider-container">
                         <div className="sub-1-1" id="sub-1-1">
                             
-                            <h2>iPhone 16</h2>
+                            <h2>iPhone 10</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="1"/>
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone16_blue.jpg" alt="2"/>
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone16_pink.webp" alt="3"/>
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="1"/>
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone16_blue.jpg" alt="2"/>
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone16_pink.webp" alt="3"/>
                                 
                             </div>
 
@@ -571,11 +571,11 @@ export default function Iphone(){
                         </div>
 
                         <div className="sub-1-2" id="sub-1-2">
-                            <h2>iPhone 16 plus</h2>
+                            <h2>iPhone 10 plus</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone16_pink.webp" alt="1" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="2"/>
-                                <img src="/iphone-page/iphone-pics/iphone16/16/iphone16_blue.jpg" alt="3"/>
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone16_pink.webp" alt="1" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone15_black.webp" alt="2"/>
+                                <img src="/iPhone-page/iphone-pics/iphone16/16/iphone16_blue.jpg" alt="3"/>
 
                                 
                             </div>
@@ -584,12 +584,12 @@ export default function Iphone(){
                         </div>
 
                         <div className="sub-1-3" id="sub-1-3">
-                            <h2>iPhone 16 pro</h2>
+                            <h2>iPhone 10 pro</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/black.jpg" alt="1" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/Desert_Titanium.png" alt="2" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/natural_titanium.jpg" alt="3" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/white_croped.png" alt="4" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/black.jpg" alt="1" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/Desert_Titanium.png" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/natural_titanium.jpg" alt="3" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/white_croped.png" alt="4" />
                                 
                             </div>
 
@@ -597,12 +597,12 @@ export default function Iphone(){
                         </div>
 
                         <div className="sub-1-4" id="sub-1-4">
-                            <h2>iPhone 16 pro max</h2>
+                            <h2>iPhone 10 pro max</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/white_croped.png" alt="1" />                           
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/natural_titanium.jpg" alt="2" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/Desert_Titanium.png" alt="3" />
-                                <img src="/iphone-page/iphone-pics/iphone16/16_pro_max/black.jpg" alt="4" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/white_croped.png" alt="1" />                           
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/natural_titanium.jpg" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/Desert_Titanium.png" alt="3" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_pro_max/black.jpg" alt="4" />
 
                                 
                             </div>
@@ -611,10 +611,10 @@ export default function Iphone(){
                         </div>
 
                         <div className="sub-1-5" id="sub-1-5">
-                            <h2>iPhone 16 e</h2>
+                            <h2>iPhone 10 e</h2>
                             <div className="slider" >
-                                <img src="/iphone-page/iphone-pics/iphone16/16_e/blackWhite.jpg" alt="1" />                           
-                                <img src="/iphone-page/iphone-pics/iphone16/16_e/white.png" alt="2" />
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_e/blackWhite.jpg" alt="1" />                           
+                                <img src="/iPhone-page/iphone-pics/iphone16/16_e/white.png" alt="2" />
 
                                 
                             </div>
